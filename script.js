@@ -32,5 +32,9 @@ answers[3] = prompt("What is your age?", "");
 
 console.log(answers);*/
 
-const category = 'toys';
+/*const category = 'toys';
 console.log(`https://someurl.com/${category}/5`);
+
+const user = 'shoh';
+alert(`Privet ${user}`);*/
+
