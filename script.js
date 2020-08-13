@@ -38,3 +38,25 @@ console.log(`https://someurl.com/${category}/5`);
 const user = 'shoh';
 alert(`Privet ${user}`);*/
 
+/* 12 lesson*/
+
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganres: [],
+    privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько oцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      e = prompt('На сколько oцените его?', '');
+
+
+      personalMovieDB.movies[a] = b;
+      personalMovieDB.movies[c] = e;
+      console.log(personalMovieDB);
